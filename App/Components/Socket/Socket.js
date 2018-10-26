@@ -2,7 +2,7 @@ const logger = require('log4js').getLogger('${ROOT}/App/Components/Socket/Socket
 const config = require('../../../config/main.json');
 const ZmqEvents = require('../../Components/Socket/ZmqEvents');
 const zmq = require('zmq');
-const bitcore = require('qtumcore-lib');
+const bitcore = require('htmlcoin-lib');
 
 class Socket {
 

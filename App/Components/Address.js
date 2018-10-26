@@ -1,4 +1,4 @@
-const bitcore = require('qtumcore-lib');
+const bitcore = require('htmlcoin-lib');
 
 class Address {
 

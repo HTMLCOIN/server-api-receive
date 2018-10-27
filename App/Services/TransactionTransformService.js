@@ -1,4 +1,4 @@
-const bitcore = require('qtumcore-lib');
+const bitcore = require('htmlcoin-lib');
 const Transaction = bitcore.Transaction;
 const config = require('../../config/main.json');
 

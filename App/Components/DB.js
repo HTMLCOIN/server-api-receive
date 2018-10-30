@@ -10,7 +10,7 @@ class DB {
 
     connect(cb) {
 
-        return mongoose.connect(this.MONGO_DB_URI, function(err) {
+        return mongoose.connect(this.MONGO_DB_URI, {useNewUrlParser:true}, function(err) {
 
             if(err) {
                 return cb(err);

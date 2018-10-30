@@ -7,7 +7,7 @@
     "ENCRYPT_PRIVATE_KEY_SALT":"!super_SaLt_super!",
     "RPC":{ 
         "PROTOCOL":"http",
-        "HOST":"127.0.0.1",
+        "HOST":"localhost",
         "PORT":"18332",
         "USER":"htmlcoin",
         "PASSWORD":"htmlcoinpassword"

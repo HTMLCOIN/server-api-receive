@@ -32,9 +32,9 @@ class RpcRepository {
         });
     };
 
-    getInfo(callback) {
+    getnetworknfo(callback) {
 
-        return this.getClient().getInfo((err, response) => {
+        return this.getClient().getnetworkinfo((err, response) => {
 
             if (err) {
                 return callback(err);

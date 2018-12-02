@@ -1,9 +1,9 @@
 { 
     "PORT":5555,
     "ZMQ_URL":"tcp://127.0.0.1:28332",
-    "NETWORK":"mainnet",
+    "NETWORK":"livenet",
     "SIGNATURE_LIFETIME_SEC":5,
-    "UPDATE_FROM_BLOCK_HEIGHT": 480000,
+    "UPDATE_FROM_BLOCK_HEIGHT": 0,
     "ENCRYPT_PRIVATE_KEY_SALT":"!super_SaLt_super!",
     "RPC":{ 
         "PROTOCOL":"http",

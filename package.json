@@ -12,7 +12,7 @@
   "dependencies": {
     "async": "^2.1.5",
     "bcrypt": "^1.0.2",
-    "bignumber.js": "^4.0.2",
+    "bignumber.js": "^8.1.1",
     "htmlcoin-lib": "https://github.com/HTMLCOIN/htmlcoin-lib.git",
     "bluebird": "^2.10.2",
     "body-parser": "^1.17.1",

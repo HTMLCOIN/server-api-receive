@@ -32,9 +32,9 @@ class RpcRepository {
         });
     };
 
-    getblockchaininfo(callback) {
+    getInfo(callback) {
 
-        return this.getClient().getblockchaininfo((err, response) => {
+        return this.getClient().getInfo((err, response) => {
 
             if (err) {
                 return callback(err);

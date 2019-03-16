@@ -1,7 +1,7 @@
 {
   "name": "server-receive",
-  "version": "0.0.1",
-  "description": "Server receive",
+  "version": "0.0.2",
+  "description": "Server-api-receive package for use with mobile-api-server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
